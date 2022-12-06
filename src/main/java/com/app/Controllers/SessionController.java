@@ -1,5 +1,7 @@
 package com.app.Controllers;
 
+import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.web.bind.annotation.CookieValue;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -24,4 +26,7 @@ public class SessionController {
 		response.addCookie(c);
 		
 	}
+	
 }
+
+
